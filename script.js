@@ -105,6 +105,7 @@ function displayStudent (student) {
     klon.querySelector("[data-field=lastname]").textContent = student.lastName;
     klon.querySelector("[data-field=middlename]").textContent = student.middleName;
     klon.querySelector("[data-field=nickname]").textContent = student.nickName;
+    klon.querySelector("[data-field=gender]").textContent = gender.house;
     klon.querySelector("[data-field=house]").textContent = student.house;
 
     // append clone to list
